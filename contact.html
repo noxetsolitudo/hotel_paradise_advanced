@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 768px)">
+  <!-- <link rel="stylesheet" href="css/widescreen.css" media="screen and (min-width: 1100px)"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <title>Hotel Paradise | Contact</title>
+</head>
+
+<body>
+  <!--Navbar  -->
+  <nav id="navbar">
+    <div class="container">
+      <h1 class="logo"><a href="index.html"><span class="text-primary">Hotel</span> Paradise</h1></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="current" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact -->
+  <section id="contact-form" class="p-1">
+    <div class="container">
+      <h1 class="m-heading py-1"> <span class="text-primary">Contact</span> Us</h1>
+      <p class="py-1">Please fill out the form below to contact us</p>
+      <form action="process.php">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact info -->
+  <section id="contact-info" class="bg-dark">
+    <div class="container">
+      <div class="contact-info-container py-1">
+        <div class="box">
+          <i class="fas fa-hotel fa-2x py-1"></i>
+          <h3 class="s-heading py-1">Location</h3>
+          <p>Caribbean road 140, Caribbean</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-2x py-1"></i>
+          <h3 class="s-heading py-1">Location</h3>
+          <p>(123)123-456-7890</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-2x py-1"></i>
+          <h3 class="s-heading py-1">Email</h3>
+          <p>email@hotelparadise.car</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer">
+    <p><span class="text-primary">Hotel</span> Paradise, &copy; 2020, All Rights Reserved, </p>
+  </footer>
+</body>
+
+</html>
